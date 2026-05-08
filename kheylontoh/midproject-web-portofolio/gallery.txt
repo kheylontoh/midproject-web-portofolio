@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kheren Ester Lontoh | Gallery</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav-wrap">
+      <a class="logo" href="index.html">Kheren Ester Lontoh</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">☰</button>
+      <nav class="nav" id="navMenu">
+        <a href="index.html">Home</a>
+        <a class="active" href="gallery.html">Gallery</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1>Gallery</h1>
+      <p class="section-lead">Dokumentasi foto kegiatan, momen, atau hasil karya.</p>
+
+      <div class="gallery-grid">
+        <figure class="gallery-card">
+          <img src="images/gallery-01.jpg" alt="Dokumentasi 1" />
+          <figcaption>Dokumentasi 1</figcaption>
+        </figure>
+        <figure class="gallery-card">
+          <img src="images/gallery-02.jpg" alt="Dokumentasi 2" />
+          <figcaption>Dokumentasi 2</figcaption>
+        </figure>
+        <figure class="gallery-card">
+          <img src="images/gallery-03.jpg" alt="Dokumentasi 3" />
+          <figcaption>Dokumentasi 3</figcaption>
+        </figure>
+        <figure class="gallery-card">
+          <img src="images/gallery-04.jpg" alt="Dokumentasi 4" />
+          <figcaption>Dokumentasi 4</figcaption>
+        </figure>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Kheren Ester Lontoh. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
